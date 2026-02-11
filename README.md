@@ -32,6 +32,19 @@ This matters when actions must be reviewed, shared, or defended outside the syst
 
 ---
 
+## System architecture
+
+This project is part of a three-layer governed execution system:
+
+- **OpenClaw** executes actions deterministically.
+- **ClawShield** governs whether actions are permitted before execution.
+- **ClawLedger** records immutable receipts of what was decided and why.
+
+Execution, governance, and evidence are intentionally separated.
+No layer replaces another.
+Together, they make autonomous systems legible, reviewable, and defensible.
+
+
 
 
 \## What you are looking at
@@ -273,6 +286,7 @@ To be defined.
 
 - **ClawLedger** — Witness ledger for governed execution  
   https://github.com/trendinghot/clawledger
+
 
 
 
