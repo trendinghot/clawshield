@@ -2,7 +2,7 @@
 
 
 
-\*\*Governance sidecar for OpenClaw\*\*
+\*\*Governance sidecar for OpenExec\*\*
 
 
 
@@ -36,7 +36,7 @@ This matters when actions must be reviewed, shared, or defended outside the syst
 
 This project is part of a three-layer governed execution system:
 
-- **OpenClaw** executes actions deterministically.
+- **OpenExec** executes actions deterministically.
 - **ClawShield** governs whether actions are permitted before execution.
 - **ClawLedger** records immutable receipts of what was decided and why.
 
@@ -161,11 +161,11 @@ They do not expire.
 
 
 
-\## Relationship to OpenClaw
+\## Relationship to OpenExec
 
 
 
-OpenClaw executes tasks.
+OpenExec executes tasks.
 
 
 
@@ -173,7 +173,7 @@ ClawShield governs whether those tasks \*should be executed\*.
 
 
 
-ClawShield does not fork OpenClaw.  
+ClawShield does not fork OpenExec.  
 
 It does not wrap execution.  
 
@@ -281,11 +281,12 @@ To be defined.
 
 ## Related repositories
 
-- **OpenClaw** — Deterministic execution engine  
-  https://github.com/trendinghot/openclaw
+- **OpenExec** — Deterministic execution engine  
+  https://github.com/trendinghot/OpenExec
 
 - **ClawLedger** — Witness ledger for governed execution  
   https://github.com/trendinghot/clawledger
+
 
 
 
